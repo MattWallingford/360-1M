@@ -38,8 +38,6 @@ The total size of all videos at max resolution is about 200 TB. We recommend dow
 python DownloadVideos/Download_GCP.py --path 360-1M.parquet
 ```
 
-We also 
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/sample_top.gif" width="410" alt="Sample 1" />
   <img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/sample_bot.gif" width="410" alt="Sample 2" />

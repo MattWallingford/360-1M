@@ -6,7 +6,6 @@
 2. Metadata for each video including category, resolution, and views. 
 3. Code for downloading the videos locally and to Google Cloud Platform (recommended).
 4. Code for filtering, processing, and obtaining camera pose for the videos.
-5. Code for training the novel view synthesis model, [ODIN](https://openreview.net/pdf?id=otxOtsWCMb).
    
 | **Reference Image**<br><img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/nyc-256x256.png" width="256" alt="NYC Reference" /><br>**Generated Scene Trajectory**<br><img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/nyc4.gif" width="256" alt="NYC Demo" /> | **Reference Image**<br><img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/livingroom-256x256.jpg" width="256" alt="Living Room Reference" /><br>**Generated Scene Trajectory**<br><img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/living_room_zoom.gif" width="256" alt="Living Room Demo" /> | **Reference Image**<br><img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/picnic-256x256.png" width="256" alt="Picnic Reference" /><br>**Generated Scene Trajectory**<br><img src="https://raw.githubusercontent.com/MattWallingford/ODIN/main/picnic2.gif" width="256" alt="Picnic Demo" /> |
 | --- | --- | --- |
@@ -115,6 +114,3 @@ python main.py \
     --num_nodes 1 \
     --check_val_every_n_epoch 1 \
     --finetune_from sd-image-conditioned-v2.ckpt
-```
-### Coming Soon
-- Model weights with inference and fine-tuning code. 
